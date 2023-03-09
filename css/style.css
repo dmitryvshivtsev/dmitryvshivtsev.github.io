@@ -13,10 +13,6 @@ nav {
     padding-left: 50px;
 }
 
-/* main {
-    text-align: center;
-} */
-
 footer {
     padding-left: 50px;
 }
@@ -37,7 +33,6 @@ li {
 
 article {
     padding-top: 50px;
-    /* text-align: center; */
 }
 
 .pagination {
@@ -47,6 +42,7 @@ article {
 .pagination a {
     text-decoration: none;
     padding: 8px 16px;
+    font-size: 20px;
 }
 
 .sidenav {
@@ -73,8 +69,8 @@ article {
 }
 
 .main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin-left: 140px;
+    font-size: 28px;
     padding: 0px 10px;
 }
 
