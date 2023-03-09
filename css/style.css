@@ -6,16 +6,16 @@ header {
     display: flex;
     align-items: center;
     padding-top: 50px;
-    padding-left: 70px;
+    padding-left: 300px;
 }
 
 nav {
     padding-left: 50px;
 }
 
-main {
+/* main {
     text-align: center;
-}
+} */
 
 footer {
     padding-left: 50px;
@@ -23,6 +23,7 @@ footer {
 
 section {
     margin: 0px 500px;
+    padding-bottom: 50px;
 }
 
 p {
@@ -30,6 +31,54 @@ p {
     padding-top: 20px;
 }
 
+li {
+    font-size: 18px;
+}
+
 article {
     padding-top: 50px;
+    /* text-align: center; */
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.sidenav {
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    left: 10px;
+    background: #22272e;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #1b87df;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
